@@ -1,0 +1,37 @@
+.title {
+  margin-top: 10px;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.movie {
+  margin: 10px;
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img {
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+.img img {
+  width: 100%;
+  max-height: 300px;
+}
+
+.people {
+  margin-top: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.search {
+  text-align: center;
+}

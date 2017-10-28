@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url('assets/img/wall.jpg');
+  background-size: cover;
+  font-family: 'Roboto Mono', Helvetica;
+  color: lightblue;
+}

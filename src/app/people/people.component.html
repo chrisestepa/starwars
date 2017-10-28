@@ -1,0 +1,7 @@
+<h5 class="title">Choose your character...</h5>
+<div *ngIf="people" class="container">
+  <div *ngFor="let person of people" class="person">
+      <h6>{{person.name}}</h6>
+      <a [routerLink]="['/people/'+person.url.substr(28)]"><img src="/assets/img/{{person.name}}.png"></a>
+  </div>
+</div>

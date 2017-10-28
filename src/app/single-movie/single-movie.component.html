@@ -1,0 +1,13 @@
+<div *ngIf="movie" class="container">
+  <div class="poster">
+    <img src="/assets/img/{{movie.episode_id}}.jpg" alt="">
+  </div>
+  <div class="movie">
+    <h1>{{movie.title}}</h1>
+    <p><b>Episode: </b>{{movie.episode_id}}</p>
+    <p><b>Date of release: </b>{{movie.release_date | date}}</p>
+    <p><b>Directed by: </b>{{movie.director}}</p>
+    <p><b>Produced by: </b>{{movie.producer}}</p>
+    <a [routerLink]="['']">Back</a>
+  </div>
+</div>

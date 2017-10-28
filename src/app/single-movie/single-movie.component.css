@@ -1,0 +1,15 @@
+.container {
+  margin: 0 auto;
+}
+
+.poster > img {
+  width: 400px;
+  float: left;
+  margin: 10px;
+}
+
+.movie {
+  width: 40%;
+  float: left;
+  margin: 10px 40px;
+}

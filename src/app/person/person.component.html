@@ -1,0 +1,18 @@
+<div class="container">
+  <div *ngIf="person" class="person">
+    <div class="poster">
+      <img src="/assets/img/{{person.name}}.png" alt="">
+    </div>
+    <div class="data">
+      <h1>{{person.name}}</h1>
+      <p><b>Height: </b>{{person.height}}</p>
+      <p><b>Mass: </b>{{person.mass}}</p>
+      <p><b>Hair color: </b>{{person.hair_color}}</p>
+      <p><b>Skin color: </b>{{person.skin_color}}</p>
+      <p><b>Eye color: </b>{{person.eye_color}}</p>
+      <p><b>Birth year: </b>{{person.birth_year}}</p>
+      <p><b>Gender: </b>{{person.gender}}</p>
+      <a [routerLink]="['']">Back</a>
+    </div>
+  </div>
+</div>

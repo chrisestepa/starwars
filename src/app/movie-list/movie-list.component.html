@@ -1,0 +1,19 @@
+<div class="search">
+  <label for="things_name"> Search by title: </label>
+  <input id="things_name" placeholder="use the force..." type="text" [(ngModel)]="pattern">
+</div>
+<div class="container">
+  <div>
+    <div *ngFor="let movie of movies | filter:'title':pattern;" class="movie">
+      <h6>Episode: {{movie.episode_id}}</h6>
+      <div class="img">
+        <a [routerLink]="[movie.url[movie.url.length-2]]"><img src="/assets/img/{{movie.episode_id}}.jpg"></a>
+      </div>
+      <h6 class="title">{{movie.title}}</h6>
+    </div>
+  </div>
+</div>
+
+<div class="people">
+  <app-people></app-people>
+</div>
