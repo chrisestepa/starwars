@@ -35,3 +35,7 @@ a:hover {
 .search {
   text-align: center;
 }
+
+.search input {
+  width: 40%;
+}
